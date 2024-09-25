@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=picture-viewer
-pkgver="0.0.0.0.0.0.0.0.0.0.1"
-_commit="0d26bb9651e143cfa39fa35a015c2cbf7c9e4ebe"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1"
+_commit="493c7c16c68612b1adfb92e2b2e6400728ff6bd8"
 pkgrel=1
 _pkgdesc=(
   "Cross-platform picture viewer."
@@ -71,7 +71,7 @@ _tarname="${pkgname}-${_tag}"
     _sum='b245547bdcdbfeb09f400305a4b515b6d49635be90f560a39302761fc2688571'
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="e1055030d4e8bd020f1b8a6ada8672c3464688cb76b54c912b6fd7e221a34412"
+    _sum="280fd7e7a04648429755ab82a5b4ade2d08c548445f0d06283602874714d2185"
   fi && \
     source+=(
       "${_tar}"
