@@ -23,15 +23,19 @@ license=(
   AGPL3
 )
 depends=(
-  "caca-utils"
-  "encoding-tools"
-  "ffmpeg"
+  "libcaca"
   "libcrash-bash"
 )
 _os="$( \
   uname \
     -o)"
+[[ "${_os}" != "GNU/Linux" ]] && \
+[[ "${_os}" == "Android" ]] && \
+  depends+=(
+    termux-tools
+  )
 optdepends=(
+  "xdg-utils: to open pictures in a graphical interface"
 )
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
@@ -42,7 +46,6 @@ checkdepends=(
   "shellcheck"
 )
 provides=(
-  "pic2txt=${pkgver}"
 )
 source=()
 sha256sums=()

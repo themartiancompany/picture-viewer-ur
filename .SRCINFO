@@ -6,11 +6,10 @@ pkgbase = picture-viewer
 	arch = any
 	license = AGPL3
 	checkdepends = shellcheck
-	depends = caca-utils
-	depends = encoding-tools
-	depends = ffmpeg
+	depends = libcaca
 	depends = libcrash-bash
-	provides = pic2txt=0.0.0.0.0.0.0.0.0.0.1
+	depends = termux-tools
+	optdepends = xdg-utils: to open pictures in a graphical interface
 	source = picture-viewer-0d26bb9651e143cfa39fa35a015c2cbf7c9e4ebe.zip::https://github.com/themartiancompany/picture-viewer/archive/0d26bb9651e143cfa39fa35a015c2cbf7c9e4ebe.zip
 	sha256sums = e1055030d4e8bd020f1b8a6ada8672c3464688cb76b54c912b6fd7e221a34412
 
