@@ -6,9 +6,8 @@ pkgbase = picture-viewer
 	arch = any
 	license = AGPL3
 	checkdepends = shellcheck
-	depends = libcaca
+	depends = ascii-viewer
 	depends = libcrash-bash
-	optdepends = xdg-utils: to open pictures in a graphical interface
 	source = picture-viewer-28e2dc9765486d1a50d362116083c86112ae624c.zip::https://github.com/themartiancompany/picture-viewer/archive/28e2dc9765486d1a50d362116083c86112ae624c.zip
 	sha256sums = 14816a5fef9b688cfb567a6c3707f756a89f6d5515e271c330576b57b56c49eb
 

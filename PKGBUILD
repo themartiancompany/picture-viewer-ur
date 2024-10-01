@@ -23,23 +23,24 @@ license=(
   AGPL3
 )
 depends=(
-  "libcaca"
+  "ascii-viewer"
   "libcrash-bash"
 )
+optdepends=()
 _os="$( \
   uname \
     -o)"
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   depends+=(
-    termux-tools
-  )
-optdepends=(
-  "xdg-utils: to open pictures in a graphical interface"
-)
+  ) && \
+ optdepends+=(
+   "xdg-utils: to open pictures in a graphical interface."
+ )
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   optdepends+=(
+    "termux-tools: to open pictures in the Android environment."
   )
 makedepends=()
 checkdepends=(
