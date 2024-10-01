@@ -1,6 +1,6 @@
 pkgbase = picture-viewer
 	pkgdesc = Cross-platform picture viewer.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/picture-viewer
 	arch = any
@@ -8,9 +8,8 @@ pkgbase = picture-viewer
 	checkdepends = shellcheck
 	depends = libcaca
 	depends = libcrash-bash
-	depends = termux-tools
 	optdepends = xdg-utils: to open pictures in a graphical interface
-	source = picture-viewer-493c7c16c68612b1adfb92e2b2e6400728ff6bd8.zip::https://github.com/themartiancompany/picture-viewer/archive/493c7c16c68612b1adfb92e2b2e6400728ff6bd8.zip
-	sha256sums = 280fd7e7a04648429755ab82a5b4ade2d08c548445f0d06283602874714d2185
+	source = picture-viewer-28e2dc9765486d1a50d362116083c86112ae624c.zip::https://github.com/themartiancompany/picture-viewer/archive/28e2dc9765486d1a50d362116083c86112ae624c.zip
+	sha256sums = 14816a5fef9b688cfb567a6c3707f756a89f6d5515e271c330576b57b56c49eb
 
 pkgname = picture-viewer
