@@ -103,7 +103,7 @@ fi
 _evmfs_network="100"
 _evmfs_address="0x69470b18f8b8b5f92b48f6199dcb147b4be96571"
 _evmfs_ns="0x87003Bd6C074C713783df04f36517451fF34CBEf"
-_archive_sum='6a25e561ab17fb2d854e198433bac03532018560428e78c0f802604960561926'
+_archive_sum='8faf7a7b679787b4648f32ba9b3df14118d441d9b6b25bb0191dc0a20d7cb4a8'
 _evmfs_archive_uri="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}/${_archive_sum}"
 _evmfs_archive_src="${_tarname}.zip::${_evmfs_archive_uri}"
 _archive_sig_sum="4922cd7a0e9c78f3cc98df9f2191cc556851e85570aa6765294042de3d0b092a"
