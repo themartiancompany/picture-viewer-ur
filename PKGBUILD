@@ -141,6 +141,7 @@ source=(
 )
 sha256sums=(
   "${_sum}"
+)
 validpgpkeys=(
   # Truocolo <truocolo@aol.com>
   '97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9'
